@@ -1,0 +1,4 @@
+slot_id,parcel_id,season,footprint_group,minimum_coverage,days_available
+FU-1,U-01,2026春,F-01,0.85,2
+FU-2,U-02,2026春,F-02,0.80,2
+FU-3,U-01,2026秋,F-01,0.65,1

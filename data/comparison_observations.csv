@@ -1,0 +1,6 @@
+sample_id,parcel_id,forest_type,recovery_stage,use_type,season,used_mu,observed_mu,carryover_fraction_low,carryover_fraction_high,available_at
+CO-1,U-01,针阔混交林,恢复初期,林下养殖,2025秋,24,41,0.35,0.70,2025-12-20
+CO-2,U-01,针阔混交林,恢复初期,林下养殖,2025秋,24,55,0.55,0.76,2026-03-10
+CO-3,U-02,油松林,养护稳定,林下采集,2025秋,16,40,0.10,0.32,2025-12-20
+CO-4,U-03,灌乔混合,恢复初期,未使用,2025秋,0,61,0,0,2025-12-16
+CO-5,U-01,针阔混交林,养护稳定,林下采集,2025春,18,50,0.05,0.18,2026-01-03

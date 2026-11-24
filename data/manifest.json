@@ -76,6 +76,27 @@
       "max_area_mu",
       "forecast_revenue_yuan",
       "shares_footprint"
+    ],
+    "comparison_observations.csv": [
+      "sample_id",
+      "parcel_id",
+      "forest_type",
+      "recovery_stage",
+      "use_type",
+      "season",
+      "used_mu",
+      "observed_mu",
+      "carryover_fraction_low",
+      "carryover_fraction_high",
+      "available_at"
+    ],
+    "followup_slots.csv": [
+      "slot_id",
+      "parcel_id",
+      "season",
+      "footprint_group",
+      "minimum_coverage",
+      "days_available"
     ]
   }
 }
