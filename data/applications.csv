@@ -1,0 +1,7 @@
+application_id,operator_id,business_type,parcel_id,requested_area_mu,season,status
+A-08,O-24,林下采集,U-02,16,2025秋,已完成
+A-09,O-21,林下采集,U-01,18,2025春,已完成
+A-10,O-22,林下养殖,U-01,24,2025秋,已完成
+A-11,O-21,林下采集,U-01,42,2026春,待审
+A-12,O-22,林下养殖,U-01,37,2026春,待审
+A-13,O-23,林下采集,U-02,29,2026秋,草拟

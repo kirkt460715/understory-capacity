@@ -1,0 +1,10 @@
+{
+  "description": "林下经营申请、林地监测和历史批准的本地合成资料",
+  "sources": {
+    "parcels.csv": ["parcel_id", "village_id", "area_mu", "forest_type", "valid_from", "valid_to"],
+    "applications.csv": ["application_id", "operator_id", "business_type", "parcel_id", "requested_area_mu", "season", "status"],
+    "ecology.csv": ["sample_id", "parcel_id", "season", "indicator", "value", "coverage"],
+    "approved_use.csv": ["approval_id", "application_id", "parcel_id", "period", "used_area_mu", "activity_status"],
+    "benefits.csv": ["record_id", "operator_id", "period", "revenue_yuan", "beneficiary_count"]
+  }
+}

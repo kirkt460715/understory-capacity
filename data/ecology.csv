@@ -1,0 +1,4 @@
+sample_id,parcel_id,season,indicator,value,coverage
+E-21,U-01,2025春,林下覆盖,0.71,0.83
+E-22,U-01,2025秋,地表裸露,0.18,0.58
+E-23,U-02,2025秋,幼树密度,420,0.91
