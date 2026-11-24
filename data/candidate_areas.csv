@@ -1,0 +1,6 @@
+candidate_id,application_id,parcel_id,season,min_area_mu,max_area_mu,forecast_revenue_yuan,shares_footprint
+AP-1,A-11,U-01,2026春,19,42,13000,F-01
+AP-2,A-11,U-02,2026春,16,24,10400,F-02
+AP-3,A-12,U-01,2026春,21,37,17600,F-01
+AP-4,A-13,U-02,2026秋,18,29,14000,F-02
+AP-5,A-14,U-01,2026春,8,8,4200,F-01

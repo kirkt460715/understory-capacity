@@ -1,0 +1,5 @@
+parcel_id,season,minimum_retained_area_mu,rest_window_from,rest_window_to,allowable_use,continuing_obligation
+U-01,2026春,33,2026-03-20,2026-04-15,林下采集|林下养殖,幼树养护
+U-01,2026秋,36,2026-09-01,2026-10-01,林下采集,保育期
+U-02,2026春,20,2026-03-20,2026-04-05,林下采集,幼树养护
+U-02,2026秋,18,2026-09-01,2026-10-01,林下采集,保育期

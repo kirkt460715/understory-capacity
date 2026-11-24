@@ -15,7 +15,24 @@ class FixtureContractTests(unittest.TestCase):
                 with (DATA / filename).open(encoding="utf-8", newline="") as source:
                     reader = csv.DictReader(source)
                     self.assertEqual(reader.fieldnames, columns)
-                    self.assertGreaterEqual(sum(1 for _ in reader), 1)
+                    rows = list(reader)
+                    self.assertTrue(rows)
+                    for row in rows:
+                        self.assertNotIn(None, row)
+                        self.assertNotIn(None, row.values())
+
+    def records(self, filename):
+        with (DATA / filename).open(encoding="utf-8", newline="") as source:
+            return list(csv.DictReader(source))
+
+    def test_approved_use_and_alternatives_reference_valid_parcels(self):
+        parcels = {row["parcel_id"] for row in self.records("parcels.csv")}
+        applications = {row["application_id"] for row in self.records("applications.csv")}
+        for row in self.records("approved_use.csv") + self.records("candidate_areas.csv"):
+            self.assertIn(row["parcel_id"], parcels)
+            self.assertIn(row["application_id"], applications)
+        events = [row for row in self.records("approval_events.csv") if row["application_id"] == "A-14"]
+        self.assertEqual({row["event_type"] for row in events}, {"签发", "确认取消"})
 
 
 if __name__ == "__main__":

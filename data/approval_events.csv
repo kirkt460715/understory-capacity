@@ -1,0 +1,5 @@
+event_id,application_id,occurred_at,event_type,amount_mu
+AE-1,A-10,2025-08-01,签发,25
+AE-2,A-10,2025-10-18,实际使用,24
+AE-3,A-14,2026-02-01,签发,8
+AE-4,A-14,2026-03-11,确认取消,3

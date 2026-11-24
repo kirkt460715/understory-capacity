@@ -1,0 +1,5 @@
+rule_id,parcel_id,use_type,previous_season,current_season,footprint_min,footprint_max,valid_as_of
+CA-1,U-01,林下养殖,2025秋,2026春,0.35,0.70,2025-12-20
+CA-1,U-01,林下养殖,2025秋,2026春,0.55,0.76,2026-03-10
+CA-2,U-01,林下采集,2026春,2026秋,0.05,0.18,2026-01-03
+CA-3,U-02,林下采集,2025秋,2026春,0.10,0.32,2025-12-20
